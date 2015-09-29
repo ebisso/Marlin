@@ -80,13 +80,13 @@
 #define DELTA_DIAGONAL_ROD 217.3// mm
 
 // 打印头到滑杆水平距离 凹凸调整此参数
-#define DELTA_SMOOTH_ROD_OFFSET 151// mm
+#define DELTA_SMOOTH_ROD_OFFSET 150// mm
 
 // 效应器球中心和打印头的水平距离
 #define DELTA_EFFECTOR_OFFSET 24.0 // mm
 
 // 滑车球中心到滑杆水平距离
-#define DELTA_CARRIAGE_OFFSET 20.0 // mm
+#define DELTA_CARRIAGE_OFFSET 22.0 // mm
 
 // 三角洲半径.（打印头到滑杆水平距离-效应器球中心和打印头的水平距离-滑车球中心到滑杆水平距离）
 #define DELTA_RADIUS (DELTA_SMOOTH_ROD_OFFSET-DELTA_EFFECTOR_OFFSET-DELTA_CARRIAGE_OFFSET)
@@ -346,7 +346,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
 //对于三角洲结构这意味着笛卡尔打印机的顶部和中心的值。
 #define MANUAL_X_HOME_POS 0
 #define MANUAL_Y_HOME_POS 0
-#define MANUAL_Z_HOME_POS 300//306.6 // Z轴高度设置
+#define MANUAL_Z_HOME_POS 307.29
 
 //轴设置
 #define NUM_AXIS 4 //轴的数量，各轴的配置是顺序是X, Y, Z, E
@@ -414,7 +414,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
 
 // The RepRapDiscount Smart Controller (white PCB)
 // http://reprap.org/wiki/RepRapDiscount_Smart_Controller
-#define REPRAP_DISCOUNT_SMART_CONTROLLER
+//#define REPRAP_DISCOUNT_SMART_CONTROLLER
 
 // The GADGETS3D G3D LCD/SD Controller (blue PCB)
 // http://reprap.org/wiki/RAMPS_1.3/1.4_GADGETS3D_Shield_with_Panel
